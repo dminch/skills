@@ -1,0 +1,23 @@
+{
+  "name": "swell-skills",
+  "owner": { "name": "Swell Commerce" },
+  "plugins": [
+    {
+      "name": "skill-a",
+      "description": "…",
+      "source": "./",
+      "strict": false,
+      "skills":   ["./skills/skill-a"],
+      "agents":   ["./agents/reviewer.md"],
+      "commands": ["./commands/deploy.md"],
+      "hooks":    ["./hooks/hooks.json"],
+      "mcpServers": "./.mcp.json"
+    },
+    {
+      "name": "lite-plugin",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/skill-b"]
+    }
+  ]
+}
